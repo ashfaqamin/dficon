@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "dficon";
+  src: url("fonts/dficon.eot?4pnr61");
+  src: url("fonts/dficon.eot?4pnr61#iefix") format("embedded-opentype"), url("fonts/dficon.ttf?4pnr61") format("truetype"), url("fonts/dficon.woff?4pnr61") format("woff"), url("fonts/dficon.svg?4pnr61#dficon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  color: #000000;
+}
+
+header {
+  background-color: #1e51bf;
+  color: white;
+  font-size: 1.5em;
+}
+
+.button-container {
+  display: flex;
+}
+
+.action-button {
+  border: none;
+  background: none;
+  align-self: flex-start;
+  padding: 1em 0;
+  margin-left: 1.5em;
+  border-bottom: #dddddd;
+}
+
+.label {
+  vertical-align: top;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "dficon" !important;
+  speak: none;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #1e51bf;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.df_Save:before {
+  content: "";
+}
+
+.df_File:before {
+  content: "";
+}
+
+.df_Copy:before {
+  content: "";
+}
+
+.df_Trash:before {
+  content: "";
+}
+
+.df_Envelope:before {
+  content: "";
+}
+
+.df_Star:before {
+  content: "";
+}
+
+.df_Plus:before {
+  content: "";
+}
+
+.df_Refresh:before {
+  content: "";
+}
+
+.df_Mappin:before {
+  content: "";
+}
+
+.df_Cog:before {
+  content: "";
+}
+
+.df_Home:before {
+  content: "";
+}
+
+.df_Person:before {
+  content: "";
+}
+
+.df_Money:before {
+  content: "";
+}
+
+.df_Creditcard:before {
+  content: "";
+}
+
+.df_Person-search:before {
+  content: "";
+}
+
+.df_Doc-clock:before {
+  content: "";
+}
+
+.df_Calendar-check:before {
+  content: "";
+}
+
+.df_Clock:before {
+  content: "";
+}
+
+.df_Doc-cog:before {
+  content: "";
+}
+
+.df_Doc-cog-2:before {
+  content: "";
+}
+
+.df_People:before {
+  content: "";
+}
+
+.df_Funnel:before {
+  content: "";
+}
+
+.df_Refresh-2:before {
+  content: "";
+}
+
+.df_Cog-2:before {
+  content: "";
+}
+
+/*# sourceMappingURL=style.css.map */

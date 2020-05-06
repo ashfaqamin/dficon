@@ -1,0 +1,179 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?4pnr61');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?4pnr61#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?4pnr61') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?4pnr61') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?4pnr61##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+$dfblue: #1e51bf;
+$text-default: #000000;
+$border-grey: #dddddd;
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  color: $text-default;
+}
+header{
+  background-color: $dfblue;
+  color: white;
+  font-size: 1.5em;
+}
+.button-container{
+  display: flex;
+}
+.action-button{
+  //padding: 5px;
+  border: none;
+  background: none;
+  align-self: flex-start;
+  padding: 1em 0;
+  margin-left: 1.5em;
+  border-bottom: $border-grey;
+}
+.label {
+  vertical-align: top;
+}
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: $dfblue;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.df_Save {
+  &:before {
+    content: $df_Save;     
+  }
+}
+.df_File {
+  &:before {
+    content: $df_File;       
+  }
+}
+.df_Copy {
+  &:before {
+    content: $df_Copy;     
+  }
+}
+.df_Trash {
+  &:before {
+    content: $df_Trash;     
+  }
+}
+.df_Envelope {
+  &:before {
+    content: $df_Envelope;     
+  }
+}
+.df_Star {
+  &:before {
+    content: $df_Star;     
+  }
+}
+.df_Plus {
+  &:before {
+    content: $df_Plus;     
+  }
+}
+.df_Refresh {
+  &:before {
+    content: $df_Refresh;     
+  }
+}
+.df_Mappin {
+  &:before {
+    content: $df_Mappin;     
+  }
+}
+.df_Cog {
+  &:before {
+    content: $df_Cog;     
+  }
+}
+.df_Home {
+  &:before {
+    content: $df_Home;     
+  }
+}
+.df_Person {
+  &:before {
+    content: $df_Person;     
+  }
+}
+.df_Money {
+  &:before {
+    content: $df_Money;     
+  }
+}
+.df_Creditcard {
+  &:before {
+    content: $df_Creditcard;     
+  }
+}
+.df_Person-search {
+  &:before {
+    content: $df_Person-search;     
+  }
+}
+.df_Doc-clock {
+  &:before {
+    content: $df_Doc-clock;     
+  }
+}
+.df_Calendar-check {
+  &:before {
+    content: $df_Calendar-check;     
+  }
+}
+.df_Clock {
+  &:before {
+    content: $df_Clock;     
+  }
+}
+.df_Doc-cog {
+  &:before {
+    content: $df_Doc-cog;     
+  }
+}
+.df_Doc-cog-2 {
+  &:before {
+    content: $df_Doc-cog-2;     
+  }
+}
+.df_People {
+  &:before {
+    content: $df_People;     
+  }
+}
+.df_Funnel {
+  &:before {
+    content: $df_Funnel;      
+  }
+}
+.df_Refresh-2 {
+  &:before {
+    content: $df_Refresh-2;     
+  }
+}
+.df_Cog-2 {
+  &:before {
+    content: $df_Cog-2;     
+  }
+}
+
