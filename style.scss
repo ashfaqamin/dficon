@@ -24,26 +24,53 @@ header{
   color: white;
   font-size: 1.5em;
 }
-.button-container{
+
+p{
+  margin: 1.5em 0 0 1.5em;
+  color: #696969;
+}
+.toolbar{
   display: flex;
+  flex-wrap: wrap;
+  border-bottom: $border-grey 1px solid;
+  padding-bottom: 1em;
+}
+.font18{
+  font-size: 1.5em;
+}
+.font20{
+  font-size: 1.67em;
+}
+.font48{
+  font-size: 4em;
 }
 .action-button{
   //padding: 5px;
   border: none;
   background: none;
-  align-self: flex-start;
-  padding: 1em 0;
+  padding: .5em 0;
   margin-left: 1.5em;
-  border-bottom: $border-grey;
+  display: flex;
+  align-items: center
 }
 .label {
-  vertical-align: top;
+  padding-left: .2em;
 }
-.icon {
+
+.feature-icons{
+  margin: 2em .5em;
+  display: flex;
+  flex-direction: row;
+
+  i{
+    margin-left: .5em;
+  }
+}
+
+i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
   speak: none;
-  font-size: 1.5em;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -56,124 +83,299 @@ header{
   -moz-osx-font-smoothing: grayscale;
 }
 
-.df_Save {
+
+.it732_Calendar-check {
   &:before {
-    content: $df_Save;     
+    content: $it732_Calendar-check;     
+    
   }
 }
-.df_File {
+.it732_Clock {
   &:before {
-    content: $df_File;       
+    content: $it732_Clock;     
+    
   }
 }
-.df_Copy {
+.it732_Cog-2 {
   &:before {
-    content: $df_Copy;     
+    content: $it732_Cog-2;     
+    
   }
 }
-.df_Trash {
+.it732_Cog {
   &:before {
-    content: $df_Trash;     
+    content: $it732_Cog;     
+    
   }
 }
-.df_Envelope {
+.it732_Copy {
   &:before {
-    content: $df_Envelope;     
+    content: $it732_Copy;     
+    
   }
 }
-.df_Star {
+.it732_Creditcard {
   &:before {
-    content: $df_Star;     
+    content: $it732_Creditcard;     
+    
   }
 }
-.df_Plus {
+.it732_Doc-clock {
   &:before {
-    content: $df_Plus;     
+    content: $it732_Doc-clock;     
+    
   }
 }
-.df_Refresh {
+.it732_Doc-cog-2 {
   &:before {
-    content: $df_Refresh;     
+    content: $it732_Doc-cog-2;     
+    
   }
 }
-.df_Mappin {
+.it732_Doc-cog {
   &:before {
-    content: $df_Mappin;     
+    content: $it732_Doc-cog;     
+    
   }
 }
-.df_Cog {
+.it732_Envelope {
   &:before {
-    content: $df_Cog;     
+    content: $it732_Envelope;     
+    
   }
 }
-.df_Home {
+.it732_File {
   &:before {
-    content: $df_Home;     
+    content: $it732_File;     
+    
   }
 }
-.df_Person {
+.it732_Funnel {
   &:before {
-    content: $df_Person;     
+    content: $it732_Funnel;     
+    
   }
 }
-.df_Money {
+.it732_Home {
   &:before {
-    content: $df_Money;     
+    content: $it732_Home;     
+    
   }
 }
-.df_Creditcard {
+.it732_Mappin {
   &:before {
-    content: $df_Creditcard;     
+    content: $it732_Mappin;     
+    
   }
 }
-.df_Person-search {
+.it732_Money {
   &:before {
-    content: $df_Person-search;     
+    content: $it732_Money;     
+    
   }
 }
-.df_Doc-clock {
+.it732_People {
   &:before {
-    content: $df_Doc-clock;     
+    content: $it732_People;     
+    
   }
 }
-.df_Calendar-check {
+.it732_Person-search {
   &:before {
-    content: $df_Calendar-check;     
+    content: $it732_Person-search;     
+    
   }
 }
-.df_Clock {
+.it732_Person {
   &:before {
-    content: $df_Clock;     
+    content: $it732_Person;     
+    
   }
 }
-.df_Doc-cog {
+.it732_Plus {
   &:before {
-    content: $df_Doc-cog;     
+    content: $it732_Plus;     
+    
   }
 }
-.df_Doc-cog-2 {
+.it732_Refresh-2 {
   &:before {
-    content: $df_Doc-cog-2;     
+    content: $it732_Refresh-2;     
+    
   }
 }
-.df_People {
+.it732_Refresh {
   &:before {
-    content: $df_People;     
+    content: $it732_Refresh;     
+    
   }
 }
-.df_Funnel {
+.it732_Save {
   &:before {
-    content: $df_Funnel;      
+    content: $it732_Save;     
+    
   }
 }
-.df_Refresh-2 {
+.it732_Star {
   &:before {
-    content: $df_Refresh-2;     
+    content: $it732_Star;     
+    
   }
 }
-.df_Cog-2 {
+.it732_Trash {
   &:before {
-    content: $df_Cog-2;     
+    content: $it732_Trash;     
+    
+  }
+}
+.it748_Calendar-check-2 {
+  &:before {
+    content: $it748_Calendar-check-2;     
+    
+  }
+}
+.it748_Calendar-check {
+  &:before {
+    content: $it748_Calendar-check;     
+    
+  }
+}
+.it748_Clock {
+  &:before {
+    content: $it748_Clock;     
+    
+  }
+}
+.it748_Cog-2 {
+  &:before {
+    content: $it748_Cog-2;     
+    
+  }
+}
+.it748_Cog {
+  &:before {
+    content: $it748_Cog;     
+    
+  }
+}
+.it748_Copy {
+  &:before {
+    content: $it748_Copy;     
+    
+  }
+}
+.it748_Creditcard {
+  &:before {
+    content: $it748_Creditcard;     
+    
+  }
+}
+.it748_Doc-clock {
+  &:before {
+    content: $it748_Doc-clock;     
+    
+  }
+}
+.it748_Doc-cog-2 {
+  &:before {
+    content: $it748_Doc-cog-2;     
+    
+  }
+}
+.it748_Doc-cog {
+  &:before {
+    content: $it748_Doc-cog;     
+    
+  }
+}
+.it748_Envelope {
+  &:before {
+    content: $it748_Envelope;     
+    
+  }
+}
+.it748_File {
+  &:before {
+    content: $it748_File;     
+    
+  }
+}
+.it748_Funnel {
+  &:before {
+    content: $it748_Funnel;     
+    
+  }
+}
+.it748_Home {
+  &:before {
+    content: $it748_Home;     
+    
+  }
+}
+.it748_Mappin {
+  &:before {
+    content: $it748_Mappin;     
+    
+  }
+}
+.it748_Money {
+  &:before {
+    content: $it748_Money;     
+    
+  }
+}
+.it748_People {
+  &:before {
+    content: $it748_People;     
+    
+  }
+}
+.it748_Person-search {
+  &:before {
+    content: $it748_Person-search;     
+    
+  }
+}
+.it748_Person {
+  &:before {
+    content: $it748_Person;     
+    
+  }
+}
+.it748_Plus {
+  &:before {
+    content: $it748_Plus;     
+    
+  }
+}
+.it748_Refresh-2 {
+  &:before {
+    content: $it748_Refresh-2;     
+    
+  }
+}
+.it748_Refresh {
+  &:before {
+    content: $it748_Refresh;     
+    
+  }
+}
+.it748_Save {
+  &:before {
+    content: $it748_Save;     
+    
+  }
+}
+.it748_Star {
+  &:before {
+    content: $it748_Star;     
+    
+  }
+}
+.it748_Trash {
+  &:before {
+    content: $it748_Trash;     
+    
   }
 }
 
