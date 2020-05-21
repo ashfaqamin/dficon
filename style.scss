@@ -1,4 +1,7 @@
 @import "variables";
+$dfblue: #1e51bf;
+$text-default: #000000;
+$border-default: #dddddd;
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
@@ -11,9 +14,8 @@
   font-style: normal;
   font-display: block;
 }
-$dfblue: #1e51bf;
-$text-default: #000000;
-$border-grey: #dddddd;
+
+
 body {
   font-family: "Arial", sans-serif;
   font-size: 12px;
@@ -32,7 +34,7 @@ p{
 .toolbar{
   display: flex;
   flex-wrap: wrap;
-  border-bottom: $border-grey 1px solid;
+  border-bottom: $border-default 1px solid;
   padding-bottom: 1em;
 }
 .font18{
@@ -48,13 +50,17 @@ p{
   //padding: 5px;
   border: none;
   background: none;
-  padding: .5em 0;
+  padding: .4em 0;
   margin-left: 1.5em;
   display: flex;
-  align-items: center
+  align-items: center;
+
+  &:hover{
+    background-color: #ececec;
+  }
 }
 .label {
-  padding-left: .2em;
+  padding: .2em 0 0 .2em;
 }
 
 .feature-icons{

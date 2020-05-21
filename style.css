@@ -46,14 +46,17 @@ p {
 .action-button {
   border: none;
   background: none;
-  padding: 0.5em 0;
+  padding: 0.4em 0;
   margin-left: 1.5em;
   display: flex;
   align-items: center;
 }
+.action-button:hover {
+  background-color: #ececec;
+}
 
 .label {
-  padding-left: 0.2em;
+  padding: 0.2em 0 0 0.2em;
 }
 
 .feature-icons {
